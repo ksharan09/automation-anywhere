@@ -1,29 +1,21 @@
-# 🚀 Automation Anywhere – Learning Instance API Automation
-
-## 👤 Candidate Information
-Name: Sharan KS  
-Target Role: Automation Engineer / QA Automation Engineer  
-
----
-
-## 📌 Project Overview
+##  Project Overview
 This project demonstrates professional-level automation testing for Automation Anywhere Community Edition, with a strong focus on API automation using Playwright. The objective is to analyze real backend behavior, identify APIs through browser developer tools, and automate them with proper validations, error handling, and reporting—exactly how automation engineers work in real enterprise projects.
 
 ---
 
-## 🧩 Assignment Coverage
+##  Assignment Coverage
 
-### ✅ Use Case 1: Task Bot Automation
+### Use Case 1: Task Bot Automation
 - Created a Task Bot in Automation Anywhere Control Room
 - Configured execution logic
 - Validated successful execution flow
 
-### ✅ Use Case 2: Form Automation
+### Use Case 2: Form Automation
 - Created a Form with text input and file upload
 - Integrated the form with a Task Bot
 - Validated user interaction and submission behavior
 
-### ✅ Use Case 3: Learning Instance API Automation (Primary Focus)
+### Use Case 3: Learning Instance API Automation (Primary Focus)
 - Identified Learning Instance API via Chrome DevTools (Network tab)
 - Extracted request URL, headers, and payload
 - Automated the API using Playwright’s request context
@@ -31,7 +23,7 @@ This project demonstrates professional-level automation testing for Automation A
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 - Node.js
 - Playwright (API Automation)
 - Automation Anywhere Community Edition
@@ -40,7 +32,7 @@ This project demonstrates professional-level automation testing for Automation A
 
 ---
 
-## 📂 Project Folder Structure
+## Project Folder Structure
 aa-api-automation/
 ├── tests/
 │   └── learningInstance.spec.js
@@ -53,7 +45,7 @@ aa-api-automation/
 
 ---
 
-## 🔐 Authentication Handling
+## Authentication Handling
 Automation Anywhere APIs require an `X-Authorization` token.
 
 Steps followed:
@@ -70,7 +62,7 @@ Note: Automation Anywhere Community Edition restricts backend API access. Even w
 
 ---
 
-## 📡 API Details
+## API Details
 
 Endpoint:
 POST /cognitive/v3/learning-instances
@@ -89,7 +81,7 @@ Sample Request Payload:
 
 ---
 
-## ✅ Validations Implemented
+## Validations Implemented
 
 ### 1. HTTP Status Validation
 - Status >= 200
@@ -110,7 +102,7 @@ Sample Request Payload:
 
 ---
 
-## ▶️ How to Run the Project
+## How to Run the Project
 
 Prerequisites:
 - Node.js (v18 or above)
@@ -124,8 +116,8 @@ npx playwright test
 
 ---
 
-## 📊 Sample Test Output
-✓ Create Learning Instance API  
+## Sample Test Output
+-> Create Learning Instance API  
 API Status: 401  
 API Error Response:  
 User Authentication token invalid  
@@ -134,7 +126,7 @@ Test Result: PASSED (Expected behavior handled correctly)
 
 ---
 
-## 🧠 Key Highlights
+## Key Highlights
 - Real-world API reverse engineering
 - Professional API automation design
 - Robust error handling
@@ -143,12 +135,12 @@ Test Result: PASSED (Expected behavior handled correctly)
 
 ---
 
-## 🏁 Conclusion
+## Conclusion
 This project reflects a real automation engineer’s approach to testing enterprise SaaS applications. It demonstrates strong understanding of Automation Anywhere, API automation, Playwright, and professional testing practices, including handling of authentication limitations in Community Edition environments.
 
 ---
 
-## 📬 Contact
+## Contact
 Name: Sharanabasappa 
 Email: sharanukswamy@gmail.com  
 Role: Software Developer – Enterprise Testing
